@@ -33,7 +33,6 @@ Download the latest release zip (or from CurseForge) and extract the `Retrovisio
 The addon itself is the `Retrovision` folder. The rest is tooling:
 
 - `make_media.py`, `make_monitor.py`, `make_icon.py` generate the textures (Python 3 with Pillow and NumPy)
-- `test.lua` is an offline test that fakes the WoW API (`lua5.1 test.lua`, ends with `ALL OK`)
 - `build.py` runs all of the above, then installs and zips. Edit the `DEST` path at the top for your own game folder.
 
 ## License
