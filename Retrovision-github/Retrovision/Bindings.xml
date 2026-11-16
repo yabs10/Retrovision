@@ -1,0 +1,6 @@
+<Bindings>
+    <Binding name="RETROVISION_TOGGLE" header="RETROVISION" category="ADDONS">Retrovision_Toggle()</Binding>
+    <Binding name="RETROVISION_OPTIONS" category="ADDONS">Retrovision_Options()</Binding>
+    <Binding name="RETROVISION_NEXTPRESET" category="ADDONS">Retrovision_NextPreset()</Binding>
+    <Binding name="RETROVISION_PREVPRESET" category="ADDONS">Retrovision_PrevPreset()</Binding>
+</Bindings>

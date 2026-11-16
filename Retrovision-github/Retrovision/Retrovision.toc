@@ -1,0 +1,19 @@
+## Interface: 16001
+## Title: |cffff2fa8Retrovision|r
+## Notes: CRT / VHS / 2004 PC monitor overlay: scanlines, masks, monitor frames, 4:3, VCR text, presets, auto rules. /crt
+## Author: yabs
+## Version: 3.1
+## SavedVariables: RetrovisionDB
+## IconTexture: Interface\AddOns\Retrovision\media\icon
+## AddonCompartmentFunc: Retrovision_OnCompartmentClick
+## OptionalDeps: EllesmereUI
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+Core.lua
+Auto.lua
+FX.lua
+Options.lua
